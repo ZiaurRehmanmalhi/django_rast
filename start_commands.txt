@@ -1,0 +1,7 @@
+for start project      ==    django-admin startproject gs1, gs2, gs3
+enter gs1, directory   ==    cd gs1
+api directory create   ==    python3 manage.py startapp api
+models file change     ==    python3 manage.py makemigrations
+Then                   ==    manage.py migrate
+create admin panel     ==    python3 manage.py createsuperuser
+localhost runserver    ==    python3 manage.py runserver
